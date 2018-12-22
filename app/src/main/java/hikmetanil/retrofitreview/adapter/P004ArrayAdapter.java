@@ -37,9 +37,9 @@ public class P004ArrayAdapter extends ArrayAdapter<P004Strong> {
 
         textViewP004.setText(p004StrongList.get(position).getId());
         for(Object gex: p004StrongList.get(position).getFiles().values()){
-            textView2P004.setText(((P004Strong.filesDetail)gex).getFilename());
-            textView3P004.setText(((P004Strong.filesDetail)gex).getType());
-            textView4P004.setText(((P004Strong.filesDetail)gex).getLanguage());
+            textView2P004.setText("filename="+((P004Strong.filesDetail)gex).getFilename());
+            textView3P004.setText("type="+((P004Strong.filesDetail)gex).getType());
+            textView4P004.setText("language="+((P004Strong.filesDetail)gex).getLanguage());
         }
         return view;  //super.getView(position, convertView, parent);
     }

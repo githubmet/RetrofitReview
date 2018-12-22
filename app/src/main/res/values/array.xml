@@ -5,6 +5,7 @@
         <item>P002Callback</item>
         <item>P003Mojombo</item>
         <item>P004BirTikJson</item>
-        <item>P005</item>
+        <item>P005QueryqString</item>
+        <item>P006PathUsername</item>
     </string-array>
 </resources>

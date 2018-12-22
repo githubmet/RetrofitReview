@@ -18,7 +18,11 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".P001"/>
+        <activity android:name=".P001RestAdapter"/>
+        <activity android:name=".P002Callback"/>
+        <activity android:name=".P003Mojombo"/>
+        <activity android:name=".P004BirTikJson"/>
+
     </application>
 
 </manifest>

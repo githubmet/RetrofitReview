@@ -15,7 +15,7 @@ import hikmetanil.retrofitreview.communication.P001Interface;
 import hikmetanil.retrofitreview.model.P001Strong;
 import retrofit.RestAdapter;
 
-public class P001 extends ListActivity{
+public class P001RestAdapter extends ListActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

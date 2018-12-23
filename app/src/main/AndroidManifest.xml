@@ -24,6 +24,7 @@
         <activity android:name=".P004BirTikJson"/>
         <activity android:name=".P005QueryqString"/>
         <activity android:name=".P006PathUsername"/>
+        <activity android:name=".P007PathCallback"/>
 
     </application>
 

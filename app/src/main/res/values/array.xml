@@ -7,5 +7,6 @@
         <item>P004BirTikJson</item>
         <item>P005QueryqString</item>
         <item>P006PathUsername</item>
+        <item>P007PathCallback</item>
     </string-array>
 </resources>

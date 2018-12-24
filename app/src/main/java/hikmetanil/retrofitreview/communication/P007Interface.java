@@ -9,6 +9,6 @@ import retrofit.http.Path;
 
 public interface P007Interface {
 
-    @GET("/users/{username}/repos")
-    void getP007StrongCallBackList(@Path("username") String userName, Callback<List<P007Strong>> p007StrongListCallback);
+    @GET("/users/{userName}/repos")
+    void getP007StrongCallBackList(@Path("userName") String userName, Callback<List<P007Strong>> p007StrongListCallback);
 }

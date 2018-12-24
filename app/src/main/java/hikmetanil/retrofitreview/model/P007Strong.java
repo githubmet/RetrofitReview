@@ -29,23 +29,4 @@ public class P007Strong {
     public String getLanguage() {
         return language;
     }
-
-    List<ownerDetails> owner;
-
-    public List<ownerDetails> getOwner() {
-        return owner;
-    }
-
-    public class ownerDetails{
-    String login;
-    String id;
-
-        public String getLogin() {
-            return login;
-        }
-
-        public String getId() {
-            return id;
-        }
-    }
 }

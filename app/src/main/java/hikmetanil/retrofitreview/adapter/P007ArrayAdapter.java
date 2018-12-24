@@ -37,8 +37,8 @@ public class P007ArrayAdapter extends ArrayAdapter<P007Strong> {
         TextView textView6P007= view.findViewById(R.id.textView6P007);
         TextView textView7P007= view.findViewById(R.id.textView7P007);
 
-        textViewP007.setText("User Id="+p007StrongList.get(position).getOwner().get(position).getId());
-        textView2P007.setText("Login="+p007StrongList.get(position).getOwner().get(position).getLogin());
+        //textViewP007.setText("User Id="+p007StrongList.get(position));
+        //textView2P007.setText("Login="+p007StrongList.get(position).getOwner().get(position).getLogin());
         textView3P007.setText("Repos Id="+p007StrongList.get(position).getId());
         textView4P007.setText("Name="+p007StrongList.get(position).getName());
         textView5P007.setText("Size="+p007StrongList.get(position).getSize());
